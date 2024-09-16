@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+body .first_page {
+    height: 100vh;
+    width: 100%;
+}
+
+body img {
+    position: absolute;
+}
+
+/* Navbar */
+body nav {
+    color: white;
+    height: 10vh;
+    position: relative;
+    display: flex;
+}
+
+/* Navbar link 1 */
+body nav .nav1 {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+body nav .nav1 ul {
+    list-style: none;
+    display: flex;
+}
+
+body nav .nav1 ul li {
+    margin-left: 2rem;
+}
+
+body nav .nav1 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*  Navbar link 2 */
+body nav .nav2 img {
+    position: absolute;
+    left: 25rem;
+    bottom: -15rem;
+}
+
+body nav .nav2 .nav2-link {
+    position: absolute;
+    top: 1rem;
+    left: 43rem;
+}
+
+body nav .nav2 .nav2-link .link1,
+.link2,
+.link3 {
+    font-size: 2.5rem;
+}
+
+body nav .nav2 .nav2-link .link2 {
+    height: 4px;
+    width: 6rem;
+    border-radius: 12px;
+    background-color: grey;
+}
+
+
+
+/* Navbar link 3 */
+body nav .nav3 {
+    margin-top: 1rem;
+    margin-left: 70rem;
+}
+
+body nav .nav3 ul {
+    list-style: none;
+    display: flex;
+}
+
+body nav .nav3 ul li {
+    margin-left: 2rem;
+}
+
+body nav .nav3 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+body nav .nav3 .fa-brands {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+
+/* Home Content */
+.home_content {
+    position: absolute;
+    top: 20rem;
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_content h1 {
+    font-size: 5rem;
+}
+
+.home_content p {
+    width: 40vw;
+}
+
+button {
+    width: 152px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: #fba419;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+
+/*  Page 2 */
+.Page2{
+    position: absolute;
+    top: 100vh;
+    width: 100vw;
+    height: 106vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.Page2 .page2_cont{
+    margin-top: 5rem;
+    width: 30vw;
+    height: 80vh;
+    margin-left: 8rem;
+    /* border: 2px solid red; */
+}
+.Page2 .page2_cont .line{
+    width: 15vw;
+    height: 8px;
+    background-color: #fba419;
+    border-radius: 12px;
+}
+.Page2 .page2_cont h1{
+    font-size: 5rem;
+}
+.Page2 .page2_img{
+    position: absolute;
+    top: -26.5rem;
+    left: 30rem;
+}
+.Page2 .page2_cont p{
+    font-size: larger;
+    margin: 2.5rem 0rem;
+    width: 20vw;
+}
+
+/* Page 3 */
+.Page3{
+    width: 100%;
+}
+.Page3 img{
+    position: absolute;
+    width: 100%;
+    top: 94rem;
+}
+
+/* Page 4 */
+.Page4{
+    width: 100%;
+}
+.Page4 img{
+    position: absolute;
+    width: 100%;
+    top: 144rem;
+}
+
+/* Page 5 */
+.Page5{
+    width: 100%;
+}
+.Page5 img{
+    position: absolute;
+    width: 100%;
+    top: 194rem;
+}
+
+/* Page 6 */
+.Page6{
+    width: 100%;
+}
+.Page6 img{
+    position: absolute;
+    width: 100%;
+    top: 241rem;
+}
+
+/* Page 7 */
+.Page7{
+    width: 100%;
+}
+.Page7 img{
+    position: absolute;
+    width: 100%;
+    top: 297.5rem;
+}
+
+/* Page 8 */
+.Page8{
+    width: 100%;
+}
+.Page8 img{
+    position: absolute;
+    width: 100%;
+    top: 351.5rem;
+}
+
+
+
